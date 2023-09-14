@@ -1,0 +1,147 @@
+.footer{
+    background-color:var(--preto-principal);
+}
+
+.footer_container {
+    width: 100%;
+    background:var(--preto-principal);
+    display: flex;
+    padding: 4em 4em 0 4em;
+    justify-content: space-around;
+}
+
+
+.footer_logo {
+    width: 218px;
+    height: 53px;
+}
+
+.container_redes_footer ul{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    list-style: none;
+
+}
+
+.titulo_cont_footer {
+    color: var(--branco-principal);
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+
+.titulo_nav_footer {
+    color: var(--branco-principal);
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+.titulo_redes_footer{
+    color: var(--branco-principal);
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+.lista_cont{
+    text-decoration: none;
+    list-style: none;
+}
+
+.lista_cont a{
+    color: var(--branco-principal);
+    text-decoration: none;
+    list-style: none;
+}
+
+.lista_cont_link{
+    padding-top: 1em;
+    color: var(--branco-principal);
+}
+
+.lista_nav_link{
+    padding-top: 1em;
+}
+
+.lista_nav {
+    color: var(--branco-principal);
+    text-decoration: none;
+    list-style: none;
+}
+
+.lista_redes{
+    text-decoration: none;
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+.rede_link {
+    padding: 0 5px;
+    width: 50px;
+}
+
+.instagram {
+    width: 60px;
+}
+.linkedin{
+    width: 65px;
+}
+
+.copy{
+    color: var(--branco-principal);
+    font-weight: 600;
+    text-align: center;
+    padding: 5em 0 2em 0;
+}
+
+@media (max-width: 420px) {
+
+    .footer_container{
+        flex-direction: column;
+    }
+    .container_cont_footer{
+        margin-top: 3em;
+        text-align: center;
+    }
+    .footer_logo{
+        width: auto;
+        height: auto;
+    }
+    .lista_cont{
+        text-align: center;
+        font-size: 18px;
+    }
+    .titulo_cont_footer{
+        font-size: 25px;
+        text-align: center;
+    }
+    .container_nav_footer{
+        margin-top: 3em;
+        text-align: center;
+        font-size: 18px;
+    }
+    .titulo_nav_footer{
+        font-size: 25px;
+        text-align: center;
+    }
+    .lista_nav{
+        text-align: center;
+    }
+    .container_redes_footer{
+        margin-top: 3em;
+        text-align: center;
+    }
+    .container_redes_footer ul{
+        justify-content: center;
+    }
+    .titulo_redes_footer{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .rede_link{
+        width: 50px;
+    }
+}

@@ -1,0 +1,121 @@
+.call {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: var(--preto-principal);
+    padding: 2em 0em 0em 0em;
+    box-shadow: inset 0px 20px 20px #00000059;
+}
+
+.call_to {
+    width: 91.9vw;
+    height: 40.5vw;
+    background: var(--branco-principal);
+}
+
+.call_to_action {
+    padding: 3em 16em 0 4em;
+}
+
+
+.logo_call {
+    width: 35vw;
+}
+
+.titulo_call {
+    color: var(--preto-principal);
+    font-weight: 900;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.texto_call {
+    color: var(--preto-principal);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 2em;
+    padding: 0 8em 0 0;
+}
+
+.sub_textoCall {
+    color: var(--preto-principal);
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-bottom: 1em;
+    padding: 0 5em 0 0;
+}
+
+.cell_call {
+    position: absolute;
+    width: 17.5%;
+    left: 86em;
+    bottom: 1.5em;
+}
+
+.botão_call {
+    background-color:var(--preto-principal);
+    color:var(--branco-principal);
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 2em 10px 2em;
+    border-radius: 2em;
+    border: none;
+    transition: 600ms;
+}
+
+.botão_call:hover {
+    background-color:var( --azul-principal );
+}
+
+@media (max-width: 420px) {
+
+    .call {
+        overflow: hidden;
+    }
+
+    .call_to {
+        width: 100%;
+        height: auto;
+        background: var(--branco-principal);
+        height: 48em;
+    }
+
+    .logo_call {
+        width: 60vw;
+    }
+
+    .call_to_action {
+        padding: 3em 0em 0 1em;
+    }
+
+    .titulo_call {
+        font-size: 30px;
+        padding: 0 4em 0 0;
+    }
+
+    .texto_call {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0 9em 0 0;;
+    }
+
+    .sub_textoCall {
+        font-size: 18px;
+        padding: 0 8em 0 0;;
+    }
+
+    .botão_call {
+        font-size: 18px;
+    }
+
+    .cell_call {
+        position: relative;
+        object-fit: cover;
+        width: 56%;
+        left: 21em;
+        bottom: 43em;
+    }
+}

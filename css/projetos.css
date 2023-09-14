@@ -1,0 +1,145 @@
+#projetos_realizados {
+    width: 100%;
+    padding: 0 4em;
+    background: #1a1a1a;
+    object-fit: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-columns: auto 300px 300px;
+    grid-template-areas:
+        "img1 img3 img2"
+        "texto img4 img4";
+}
+
+
+#texto {
+    grid-area: texto;
+}
+
+.titulo_projetos {
+    font-weight: 900;
+    color: var(--verde-principal);
+    font-size: 50px;
+    margin: 1em 0;
+}
+
+.conteudo_projetos {
+    font-weight: 400;
+    color: var(--branco-principal);
+    font-size: 20px;
+    line-height: 2em;
+}
+
+
+.contain_img1 {
+    height: 100%;
+}
+
+.contain_img2 {
+    height: 100%;
+}
+
+.contain_img3 {
+    height: 100%;
+}
+
+.contain_img4 {
+    width: 610px;
+    height: 400px;
+}
+
+.imagem_1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#imga1 {
+    grid-area: img1;
+}
+
+.imagem_2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#imga2 {
+    grid-area: img2;
+}
+
+.imagem_3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#imga3 {
+    grid-area: img3;
+}
+
+.imagem_4 {
+    width: 610px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#imga4 {
+    grid-area: img4;
+}
+
+@media (max-width: 420px) {
+
+    #projetos_realizados {
+        padding: 0 1em;
+        grid-gap: 10px;
+        grid-template-columns: 100px auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "texto texto texto"
+            "img2 img1 img3"
+            "img4 img4 img4";
+    }
+
+    .contain_img1 {
+        width: 100%;
+        height: 125px;
+    }
+
+    .contain_img2 {
+        width: 125px;
+        height: 125px;
+
+    }
+
+    .contain_img3 {
+        width: 125px;
+        height: 125px;
+
+    }
+
+    .contain_img4 {
+        width: 125px;
+        height: 125px;
+    }
+
+    .imagem_1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagem_4 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .titulo_projetos{
+        font-size: 41px;
+    }
+
+    .conteudo_projetos{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background: #000000;
+  font-family: 'Hanken Grotesk';
+}
+
+:root{
+  background-color: #1a1a1a;
+  --preto-principal: #1a1a1a;
+  --azul-principal: #0009ff;
+  --verde-principal: #09ff00;
+  --branco-principal: #eeeeee;
+}
+
+.container_padrão {
+  max-width: 1580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao_link{
+  text-decoration: none;
+  color: var(--branco-principal);
+  font-weight: 900;
+  font-family: 'Hanken Grotesk';
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+  font-display: swap;
+}

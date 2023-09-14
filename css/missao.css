@@ -1,0 +1,112 @@
+.missao_container {
+    display: grid;
+    background: var(--preto-principal);
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: "container_autentic imagem1 container_parceiria"
+    "imagem2 container_inovacao imagem3";
+    padding: 5em 4em;
+}
+
+.container {
+    width: 400px;
+    padding: 0 2em;
+}
+
+.img_missao {
+    width: 400px;
+    height: 400px;
+}
+.container_autentic{
+    grid-area: container_autentic;
+    padding: 0 2em;
+}
+.container_inovacao{
+    grid-area: container_inovacao;
+    padding: 0 2em;
+}
+.container_parceiria{
+    grid-area: container_parceiria;
+    padding: 0 2em;
+}
+.imag1{
+    grid-area: imagem1 ;
+    align-self:center;
+}
+.imag2{
+    grid-area: imagem2 ;
+}
+.imag3{
+    grid-area: imagem3 ;
+}
+.titulo_autentic {
+    color: var(--verde-principal);
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding: 1em 0;
+}
+.titulo_inova {
+    color: var(--verde-principal);
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.titulo_parc {
+    color: var(--verde-principal);
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+.texto_autentic {
+    color:var(--branco-principal);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.texto_inova {
+    color:var(--branco-principal);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.texto_parc {
+    color:var(--branco-principal);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 420px) {
+    .missao_container{
+        grid-template-areas:
+        "container_autentic"
+        "imagem1"
+        "container_parceiria"
+        "imagem2"
+        "container_inovacao"
+        "imagem3";
+        padding: 1em 4em;
+}
+.container_autentic{
+        padding: 4em 1em;
+    }
+
+    .container_inovacao{
+        padding: 4em 1em;
+    }
+
+    .container_parceiria{
+        padding: 4em 1em;
+    }
+}
